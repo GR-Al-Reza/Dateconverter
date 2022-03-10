@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@drawable/gradient"
+    >
+
+    <EditText
+
+        android:id="@+id/day_id"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:hint="Enter the day"
+        android:textColorHint="#FFFCFC"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#F4F1F1"
+        android:textCursorDrawable="@color/black"
+        android:layout_marginBottom="15dp"
+
+
+        />
+    <EditText
+
+        android:id="@+id/month_id"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:textColorHint="#F8F5F5"
+        android:textStyle="bold"
+        android:hint="Enter the month"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#F6F5F4"
+        android:textCursorDrawable="@color/black"
+        android:layout_marginBottom="15dp"
+
+
+        />
+    <EditText
+        android:id="@+id/year_id"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:textColorHint="#F6F5F5"
+        android:textStyle="bold"
+        android:hint="Enter the year"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#F2F4F0"
+        android:textCursorDrawable="@color/black"
+        android:layout_marginBottom="15dp"
+
+
+        />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:layout_marginBottom="15dp"
+            android:id="@+id/calculate_button_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="convert"
+            android:textSize="25sp"
+
+
+            />
+        <Button
+            android:layout_marginLeft="15dp"
+            android:id="@+id/cancel_button_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="clear"
+            android:textSize="25sp"
+
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#F1EEEE"
+        />
+
+
+
+
+</LinearLayout>
